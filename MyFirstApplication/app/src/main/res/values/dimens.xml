@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size">16sp</dimen>
+    <dimen name="main_text_margin_top">68dp</dimen>
+    <dimen name="back_Arrow_width">24dp</dimen>
+    <dimen name="back_Arrow_height">24dp</dimen>
+    <dimen name="view_margin_Top">44dp</dimen>
+    <dimen name="view_margin_Start">40dp</dimen>
+    <dimen name="view_margin_End">40dp</dimen>
+    <dimen name="view_margin_bottom">40dp</dimen>
+    <dimen name="cart_height">152dp</dimen>
+    <dimen name="card_radius">20dp</dimen>
+    <dimen name="card_shadow">16dp</dimen>
+    <dimen name="card_image_margin_top">16dp</dimen>
+    <dimen name="card_text_margin_start">20dp</dimen>
+    <dimen name="card_text_margin_bottom">28dp</dimen>
+    <dimen name="text_height">24dp</dimen>
+    <dimen name="card_margin_top">12dp</dimen>
+    <dimen name="text_size_of_signup_login_text">20sp</dimen>
+    <dimen name="text_input_layout_corner_radius">10dp</dimen>
+    <dimen name="zero_dp">0dp</dimen>
+    <dimen name="text_input_edit_text_size">18sp</dimen>
+    <dimen name="text_input_edit_text_padding">12dp</dimen>
+    <dimen name="text_input_layout_height">44dp</dimen>
+    <dimen name="continue_button_margin_start_and_end">60dp</dimen>
+    <dimen name="continue_button_radius">50dp</dimen>
+    <dimen name="email_text_size">12dp</dimen>
+    <dimen name="hyper_link_margin">20dp</dimen>
+    <dimen name="margin_bottom_from_bottom">80dp</dimen>
+    <dimen name="continue_button_padding">14dp</dimen>
+    <dimen name="margin_between">20dp</dimen>
+    <dimen name="margin_top_forgot_password">12dp</dimen>
+    <dimen name="bottom_margin_continue_button">20dp</dimen>
+    <dimen name="top_margin_name_email">32dp</dimen>
+    <dimen name="top_margin_of_signup_login">28dp</dimen>
+    <dimen name="recycle_view_margin_top">20dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="child_image_size">70dp</dimen>
+
+
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/the_navigation"
+    app:startDestination="@id/userchooseFragment">
+
+    <fragment
+        android:id="@+id/userchooseFragment"
+        android:name="com.example.myfirstapplication.userchoose.UserChooseFragment"
+        android:label="fragment_userchoose"
+        tools:layout="@layout/fragment_userchoose" >
+        <action
+            android:id="@+id/action_user_choose_to_sign_up"
+            app:destination="@id/registerFragment"
+            />
+        <action
+            android:id="@+id/action_user_choose_to_login_in"
+            app:destination="@id/loginFragment"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.myfirstapplication.register.RegisterFragment"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" >
+        <action
+            android:id="@+id/action_sign_up_to_login_in"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/userchooseFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.myfirstapplication.login.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_login_in_to_sign_up"
+            app:destination="@id/registerFragment"
+            app:popUpTo="@id/userchooseFragment" />
+
+        <action
+            android:id="@+id/action_loginFragment_to_childrenFragment"
+            app:destination="@id/childrenFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/childrenFragment"
+        android:name="com.example.myfirstapplication.children.ChildrenFragment"
+        android:label="fragment_children"
+        tools:layout="@layout/fragment_children" >
+
+        <action
+            android:id="@+id/action_childrenFragment_to_addChildFragment"
+            app:destination="@id/addChildFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addChildFragment"
+        android:name="com.example.myfirstapplication.addchild.AddChildFragment"
+        android:label="add_child_fragment"
+        tools:layout="@layout/fragment_add_child" >
+        <argument
+            android:name="childDataArg"
+            app:argType="com.example.myfirstapplication.children.ChildrenData"
+            app:nullable="true" />
+    </fragment>
+</navigation>
